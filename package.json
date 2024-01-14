@@ -1,0 +1,24 @@
+{
+  "name": "dtc-terra-pack",
+  "displayName": "DTC Terraform pack",
+  "publisher": "danyathecoder",
+  "description": "This pack contains useful extensions to work with Terraform.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danyathecoder/DTC-Terraform-pack.git"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "fredwangwang.vscode-hcl-format",
+    "hashicorp.hcl",
+    "hashicorp.terraform",
+    "mindaro-dev.file-downloader"
+  ]
+}
